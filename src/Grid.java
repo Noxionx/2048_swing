@@ -1,6 +1,6 @@
 	
 public class Grid {
-	private int score = 0;
+	private long score = 0;
 	static final int probaFour = 15; // Probability of 4 (instead of 2) -> %
 	private int[][] grid = new int[4][4];
 	
@@ -33,7 +33,7 @@ public class Grid {
 	public int getCell(int x,int y){
 		return grid[x][y];
 	}
-	public int getScore(){
+	public long getScore(){
 		return score;
 	}
 	

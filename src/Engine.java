@@ -16,7 +16,7 @@ public class Engine {
 							{0, 2,4,2}};
 	
 	public static void main(String[] args){
-		new EngineIDE();
+		new EngineIDE("2048");
 	}
 	
 
